@@ -57,6 +57,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\calculo.svg" />
 	  <None Remove="Resources\Images\icon_about_ios_JDS.png" />
 	  <None Remove="Resources\Images\icon_about_JDS.png" />
 	  <None Remove="Resources\Images\icon_notes_ios_JDS.png" />
@@ -74,6 +75,9 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\AllNotesPage_JDS.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\CalculoCaracteres_JDS.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\NotePage_JDS.xaml">
